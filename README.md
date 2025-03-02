@@ -95,7 +95,7 @@ streamlit run src/app.py
 -View formatted output in web UI.
 
 ---
-# Project Structure
+```
 src/
 ├── agents/            # Core AI components
 │   ├── research_agent.py  # Web research implementation
@@ -105,3 +105,4 @@ src/
 │   └── tavily_wrapper.py # API client wrapper
 ├── app.py             # Streamlit UI entrypoint
 └── main.py            # LangGraph workflow setup
+```
