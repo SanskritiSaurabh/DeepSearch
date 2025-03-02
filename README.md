@@ -44,6 +44,8 @@ graph TD
     F --> G{Answer Drafter}
     G --> H[Structured Output]
 ```
+---
+
 ## Key Components
 
 ### Research Agent (`research_agent.py`)
@@ -55,4 +57,26 @@ graph TD
 - **LLM-Powered Response Generation**: Generates responses using a large language model.
 - **Markdown Formatting**: Formats the generated content in Markdown.
 - **Quality Assurance Checks**: Conducts quality assurance checks to maintain response standards.
+
+## ⚙️ Installation
+**Prerequisites:
+
+- **Python 3.10+
+- **API keys: Tavily & Google AI Studio
+```
+# Clone repository
+git clone https://github.com/yourusername/KaironAI.git
+cd KaironAI
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure environment
+echo "TAVILY_API_KEY=your_tavily_key" > .env
+echo "GOOGLE_API_KEY=your_gemini_key" >> .env
+```
 
