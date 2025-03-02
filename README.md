@@ -1,5 +1,5 @@
-# KaironAI - AI Research Assistant  
-**A Production-Grade Dual-Agent System for Intelligent Web Research**  
+# DualMind Agent - AI Research Assistant  
+**A Dual-Agent System for Intelligent Web Search**  
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/UI-Framework-FF4B4B?logo=streamlit)](https://streamlit.io/)
@@ -67,7 +67,7 @@ graph TD
 # Clone repository
 ```
 git clone https://github.com/yourusername/KaironAI.git
-cd KaironAI
+cd DualMind_Agent
 
 # Create virtual environment
 python -m venv venv
