@@ -49,14 +49,14 @@ graph TD
 ## Key Components
 
 ### Research Agent (`research_agent.py`)
-- **Web Crawling and Data Aggregation**: Handles the crawling of web pages and aggregates data from various sources.
+- **Web Crawling and Data Aggregation**: This handles the crawling of web pages and aggregates data from various sources.
 - **Data Preprocessing and Validation**: Preprocesses and validates data to ensure accuracy and quality.
 - **Error Handling for API Failures**: Implements robust error handling to manage API failures gracefully.
 
 ### Answer Drafter (`answer_drafter.py`)
 - **LLM-Powered Response Generation**: Generates responses using a large language model.
 - **Markdown Formatting**: Formats the generated content in Markdown.
-- **Quality Assurance Checks**: Conducts quality assurance checks to maintain response standards.
+- **Quality Assurance Checks**: Conduct quality assurance checks to maintain response standards.
 
 ## ⚙️ Installation
 **Prerequisites:**
@@ -66,7 +66,7 @@ graph TD
 
 # Clone repository
 ```
-git clone https://github.com/yourusername/KaironAI.git
+git clone https://github.com/SanskritiSaurabh/DualMind_Agent.git
 cd DualMind_Agent
 
 # Create virtual environment
@@ -91,7 +91,7 @@ streamlit run src/app.py
 
 - Enter query: "Explain quantum computing like I'm 5".
 - Research Agent gathers web data.
-- Answer Drafter generates structured response.
+- Answer Drafter generates a structured response.
 -View formatted output in web UI.
 
 ---
