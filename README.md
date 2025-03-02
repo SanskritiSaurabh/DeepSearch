@@ -43,3 +43,16 @@ graph TD
     E --> F[Gemini Analysis]
     F --> G{Answer Drafter}
     G --> H[Structured Output]
+```
+# Key Components
+
+## Research Agent (`research_agent.py`)
+- **Web Crawling and Data Aggregation**: Handles the crawling of web pages and aggregates data from various sources.
+- **Data Preprocessing and Validation**: Preprocesses and validates data to ensure accuracy and quality.
+- **Error Handling for API Failures**: Implements robust error handling to manage API failures gracefully.
+
+## Answer Drafter (`answer_drafter.py`)
+- **LLM-Powered Response Generation**: Generates responses using a large language model.
+- **Markdown Formatting**: Formats the generated content in Markdown.
+- **Quality Assurance Checks**: Conducts quality assurance checks to maintain response standards.
+
