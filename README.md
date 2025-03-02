@@ -59,12 +59,13 @@ graph TD
 - **Quality Assurance Checks**: Conducts quality assurance checks to maintain response standards.
 
 ## ⚙️ Installation
-**Prerequisites:
+**Prerequisites:**
 
-- **Python 3.10+
-- **API keys: Tavily & Google AI Studio
-```
+- **Python 3.10+**
+- **API keys: Tavily & Google AI Studio**
+
 # Clone repository
+```
 git clone https://github.com/yourusername/KaironAI.git
 cd KaironAI
 
@@ -79,4 +80,28 @@ pip install -r requirements.txt
 echo "TAVILY_API_KEY=your_tavily_key" > .env
 echo "GOOGLE_API_KEY=your_gemini_key" >> .env
 ```
+---
+# Usage
 
+## Start the application:
+```
+streamlit run src/app.py
+```
+## Example Workflow:
+
+- Enter query: "Explain quantum computing like I'm 5".
+- Research Agent gathers web data.
+- Answer Drafter generates structured response.
+-View formatted output in web UI.
+
+---
+# Project Structure
+src/
+├── agents/            # Core AI components
+│   ├── research_agent.py  # Web research implementation
+│   └── answer_drafter.py  # Response generation logic
+├── utils/             # Helper modules
+│   ├── config.py      # Environment configuration
+│   └── tavily_wrapper.py # API client wrapper
+├── app.py             # Streamlit UI entrypoint
+└── main.py            # LangGraph workflow setup
