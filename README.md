@@ -43,4 +43,3 @@ graph TD
     E --> F[Gemini Analysis]
     F --> G{Answer Drafter}
     G --> H[Structured Output]
-    H --> B
