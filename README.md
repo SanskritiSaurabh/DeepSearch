@@ -1,9 +1,9 @@
 # DualMind Agent - AI Research Assistant  
 **A Dual-Agent System for Intelligent Web Search** 
+---
+## ScreenShot
 <img width="1464" alt="Screenshot 2025-03-01 at 9 47 17 PM" src="https://github.com/user-attachments/assets/e9b0db3d-0b9b-4189-93ee-277b2ff8d112" />
-
- 
-
+---
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/UI-Framework-FF4B4B?logo=streamlit)](https://streamlit.io/)
 [![LangGraph](https://img.shields.io/badge/Workflow-LangGraph-01BEF2)](https://langchain.com/langgraph)
